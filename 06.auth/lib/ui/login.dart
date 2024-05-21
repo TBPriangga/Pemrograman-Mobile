@@ -37,7 +37,7 @@ class _LoginScreenState extends State<LoginScreen> {
         .then((value) async {
       await Navigator.pushAndRemoveUntil(
           context,
-          MaterialPageRoute(builder: (context) => const HomeScreen()),
+          MaterialPageRoute(builder: (context) => HomeScreen()),
           (route) => false);
       return value;
     });

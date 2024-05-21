@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
           BlocProvider(create: (context) => RegisterCubit())
         ],
         child: MaterialApp(
-          title: "Praktikum 6",
+          title: "Praktikum Auth",
           debugShowCheckedModeBanner: false,
           navigatorKey: NAV_KEY,
           onGenerateRoute: generateRoute,
@@ -38,7 +38,7 @@ class MyApp extends StatelessWidget {
               if (snapshot.connectionState == ConnectionState.waiting) {
                 return const CircularProgressIndicator();
               } else if (snapshot.hasData) {
-                return const HomeScreen();
+                return HomeScreen();
               } else if (snapshot.hasError) {
                 return const Center(
                   child: Text('Something went wrong'),

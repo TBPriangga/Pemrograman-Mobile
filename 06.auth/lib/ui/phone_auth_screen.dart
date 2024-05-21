@@ -63,7 +63,7 @@ class _PhoneAuthScreenState extends State<PhoneAuthScreen> {
           Navigator.pushReplacement(
             context,
             MaterialPageRoute(
-              builder: (context) => const HomeScreen(),
+              builder: (context) => HomeScreen(),
             ),
           );
         } else {
