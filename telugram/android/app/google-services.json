@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "502896323342",
+    "project_id": "telugram-8e14f",
+    "storage_bucket": "telugram-8e14f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:502896323342:android:87aee3795d2de4ee56455f",
+        "android_client_info": {
+          "package_name": "com.example.telugram"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqkdzpJZGx2-jmGvpHp01CIMbuH_dXFwA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
